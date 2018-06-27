@@ -29,6 +29,21 @@
   </head>
   <body id="page-top" data-spy="scroll" data-target="#navbarCodeply" data-offset="70">
 
+        <div id="password">
+                <section class="p-6"> 
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-lg-12 text-center">
+                            <p>Please enter password 
+                              <p class="err hide red bold font-size-md">Incorrect password!</p>
+                            </p>
+                            <p><input class="col-lg-4" id="passwordBox" type="password"/></p>
+                            <button id="enter" class="col-lg-4 btn btn-primary" onclick="return checkPassword();">ENTER</button>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
     <!-- Header -->
     <nav class="d-hide">
@@ -37,7 +52,7 @@
         </div>
     </nav>
 
-    <div id="foo">
+<div id="page">
 
       <!-- Start content -->
 <section class="bg-intro pt-0 pb-0 sticky">
@@ -694,6 +709,8 @@
   </section>
 
 
+
+
 </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -754,6 +771,7 @@
                 console.error('Oh no! Some things failed to be awesome!', arguments);
             });
     </script>
+
 
   </body>
 
