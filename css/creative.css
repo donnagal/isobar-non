@@ -32,7 +32,7 @@ hr {
   max-width: 130px;
   border-width: 1px;
   border-color: #000000; }
-
+code { color: #03A9F4;}
 hr.light {
   border-color: #fff; }
 
@@ -902,3 +902,10 @@ BODY {
           .hide {
             display: none;
           }
+.video-text {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  left: 40%;
+  top: 20%;
+}

@@ -11,6 +11,15 @@ AOS.init({
   });
 
 
+//Vimeo 
+    if ( $( "iframe" ).is( ".subtitle" ) ) {
+      $( ".video-text" ).show();
+    } else {
+      $( ".video-text" ).hide();
+    }
+ 
+
+
   //idangero.us/swiper/api/
 
   var swiper = new Swiper('#galleryIntro', {
@@ -160,4 +169,5 @@ $('.video').hover(function toggleControls() {
       this.setAttribute("controls", "controls")
   }
 })
+
 
